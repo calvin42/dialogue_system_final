@@ -13,6 +13,7 @@ To convert the dataset simply write ```python converter.py``` and the script wil
 
 ## Training and execution of the bot
 The bot is called with one of the following parameters: "train-nlu", "train-dialogue or "run".
+```python bot.py parameter```
 ### train-nlu
 With this parameter the script will train the NLU. This is the first step to be done to train the bot.
 ### train-dialogue
