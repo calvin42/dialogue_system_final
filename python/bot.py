@@ -28,7 +28,7 @@ logger = logging.getLogger(__name__)
 reload(sys)  
 sys.setdefaultencoding('utf8')
 
-TRAINING_DATA = "exact.json"
+TRAINING_DATA = "data/exact.json"
 NLU_CONFIG = "data/config_nlu.yml"
 
 MODEL_DIRECTORY = "model/nlu/default/current"
@@ -38,7 +38,7 @@ MODEL_DIALOGUE = "model/dialogue"
 MODEL_DIALOGUE_TENSORFLOW = "model/tensorflow_dialogue"
 
 
-STORIES = "stupid_stories.md"
+STORIES = "stories.md"
 
 
 def train_nlu():
